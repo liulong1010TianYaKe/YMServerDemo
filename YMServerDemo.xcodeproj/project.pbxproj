@@ -1,0 +1,549 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FDA869AA1CA0115E00BA7D09 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FDA869A91CA0115E00BA7D09 /* main.m */; };
+		FDA869AD1CA0115E00BA7D09 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FDA869AC1CA0115E00BA7D09 /* AppDelegate.m */; };
+		FDA869B01CA0115E00BA7D09 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FDA869AF1CA0115E00BA7D09 /* ViewController.m */; };
+		FDA869B31CA0115E00BA7D09 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDA869B11CA0115E00BA7D09 /* Main.storyboard */; };
+		FDA869B51CA0115E00BA7D09 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDA869B41CA0115E00BA7D09 /* Assets.xcassets */; };
+		FDA869B81CA0115E00BA7D09 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDA869B61CA0115E00BA7D09 /* LaunchScreen.storyboard */; };
+		FDA869C31CA0115E00BA7D09 /* YMServerDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FDA869C21CA0115E00BA7D09 /* YMServerDemoTests.m */; };
+		FDA869D81CA011DC00BA7D09 /* UserInfoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FDA869CF1CA011DC00BA7D09 /* UserInfoModel.m */; };
+		FDA869D91CA011DC00BA7D09 /* RegisterSerivceModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FDA869D11CA011DC00BA7D09 /* RegisterSerivceModel.m */; };
+		FDA869DA1CA011DC00BA7D09 /* SongInforModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FDA869D31CA011DC00BA7D09 /* SongInforModel.m */; };
+		FDA869DB1CA011DC00BA7D09 /* HeadModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FDA869D51CA011DC00BA7D09 /* HeadModel.m */; };
+		FDA869DC1CA011DC00BA7D09 /* DeviceModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FDA869D71CA011DC00BA7D09 /* DeviceModel.m */; };
+		FDA86A1A1CA012BA00BA7D09 /* MJExtensionConst.m in Sources */ = {isa = PBXBuildFile; fileRef = FDA86A071CA012BA00BA7D09 /* MJExtensionConst.m */; };
+		FDA86A1B1CA012BA00BA7D09 /* MJFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = FDA86A091CA012BA00BA7D09 /* MJFoundation.m */; };
+		FDA86A1C1CA012BA00BA7D09 /* MJProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = FDA86A0B1CA012BA00BA7D09 /* MJProperty.m */; };
+		FDA86A1D1CA012BA00BA7D09 /* MJPropertyKey.m in Sources */ = {isa = PBXBuildFile; fileRef = FDA86A0D1CA012BA00BA7D09 /* MJPropertyKey.m */; };
+		FDA86A1E1CA012BA00BA7D09 /* MJPropertyType.m in Sources */ = {isa = PBXBuildFile; fileRef = FDA86A0F1CA012BA00BA7D09 /* MJPropertyType.m */; };
+		FDA86A1F1CA012BA00BA7D09 /* NSObject+MJClass.m in Sources */ = {isa = PBXBuildFile; fileRef = FDA86A111CA012BA00BA7D09 /* NSObject+MJClass.m */; };
+		FDA86A201CA012BA00BA7D09 /* NSObject+MJCoding.m in Sources */ = {isa = PBXBuildFile; fileRef = FDA86A131CA012BA00BA7D09 /* NSObject+MJCoding.m */; };
+		FDA86A211CA012BA00BA7D09 /* NSObject+MJKeyValue.m in Sources */ = {isa = PBXBuildFile; fileRef = FDA86A151CA012BA00BA7D09 /* NSObject+MJKeyValue.m */; };
+		FDA86A221CA012BA00BA7D09 /* NSObject+MJProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = FDA86A171CA012BA00BA7D09 /* NSObject+MJProperty.m */; };
+		FDA86A231CA012BA00BA7D09 /* NSString+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = FDA86A191CA012BA00BA7D09 /* NSString+MJExtension.m */; };
+		FDA86A271CA0138C00BA7D09 /* UIDevice-Hardware.m in Sources */ = {isa = PBXBuildFile; fileRef = FDA86A261CA0138C00BA7D09 /* UIDevice-Hardware.m */; };
+		FDA86A2A1CA0139C00BA7D09 /* NSString+IPAddress.m in Sources */ = {isa = PBXBuildFile; fileRef = FDA86A291CA0139C00BA7D09 /* NSString+IPAddress.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FDA869BF1CA0115E00BA7D09 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FDA8699D1CA0115E00BA7D09 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FDA869A41CA0115E00BA7D09;
+			remoteInfo = YMServerDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FDA869A51CA0115E00BA7D09 /* YMServerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YMServerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDA869A91CA0115E00BA7D09 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FDA869AB1CA0115E00BA7D09 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FDA869AC1CA0115E00BA7D09 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FDA869AE1CA0115E00BA7D09 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FDA869AF1CA0115E00BA7D09 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FDA869B21CA0115E00BA7D09 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FDA869B41CA0115E00BA7D09 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FDA869B71CA0115E00BA7D09 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FDA869B91CA0115E00BA7D09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDA869BE1CA0115E00BA7D09 /* YMServerDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YMServerDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDA869C21CA0115E00BA7D09 /* YMServerDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YMServerDemoTests.m; sourceTree = "<group>"; };
+		FDA869C41CA0115E00BA7D09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDA869CE1CA011DC00BA7D09 /* UserInfoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserInfoModel.h; sourceTree = "<group>"; };
+		FDA869CF1CA011DC00BA7D09 /* UserInfoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserInfoModel.m; sourceTree = "<group>"; };
+		FDA869D01CA011DC00BA7D09 /* RegisterSerivceModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterSerivceModel.h; sourceTree = "<group>"; };
+		FDA869D11CA011DC00BA7D09 /* RegisterSerivceModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterSerivceModel.m; sourceTree = "<group>"; };
+		FDA869D21CA011DC00BA7D09 /* SongInforModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SongInforModel.h; sourceTree = "<group>"; };
+		FDA869D31CA011DC00BA7D09 /* SongInforModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SongInforModel.m; sourceTree = "<group>"; };
+		FDA869D41CA011DC00BA7D09 /* HeadModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeadModel.h; sourceTree = "<group>"; };
+		FDA869D51CA011DC00BA7D09 /* HeadModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeadModel.m; sourceTree = "<group>"; };
+		FDA869D61CA011DC00BA7D09 /* DeviceModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceModel.h; sourceTree = "<group>"; };
+		FDA869D71CA011DC00BA7D09 /* DeviceModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeviceModel.m; sourceTree = "<group>"; };
+		FDA86A051CA012BA00BA7D09 /* MJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJExtension.h; sourceTree = "<group>"; };
+		FDA86A061CA012BA00BA7D09 /* MJExtensionConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJExtensionConst.h; sourceTree = "<group>"; };
+		FDA86A071CA012BA00BA7D09 /* MJExtensionConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJExtensionConst.m; sourceTree = "<group>"; };
+		FDA86A081CA012BA00BA7D09 /* MJFoundation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJFoundation.h; sourceTree = "<group>"; };
+		FDA86A091CA012BA00BA7D09 /* MJFoundation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJFoundation.m; sourceTree = "<group>"; };
+		FDA86A0A1CA012BA00BA7D09 /* MJProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJProperty.h; sourceTree = "<group>"; };
+		FDA86A0B1CA012BA00BA7D09 /* MJProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJProperty.m; sourceTree = "<group>"; };
+		FDA86A0C1CA012BA00BA7D09 /* MJPropertyKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJPropertyKey.h; sourceTree = "<group>"; };
+		FDA86A0D1CA012BA00BA7D09 /* MJPropertyKey.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJPropertyKey.m; sourceTree = "<group>"; };
+		FDA86A0E1CA012BA00BA7D09 /* MJPropertyType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJPropertyType.h; sourceTree = "<group>"; };
+		FDA86A0F1CA012BA00BA7D09 /* MJPropertyType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJPropertyType.m; sourceTree = "<group>"; };
+		FDA86A101CA012BA00BA7D09 /* NSObject+MJClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MJClass.h"; sourceTree = "<group>"; };
+		FDA86A111CA012BA00BA7D09 /* NSObject+MJClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJClass.m"; sourceTree = "<group>"; };
+		FDA86A121CA012BA00BA7D09 /* NSObject+MJCoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MJCoding.h"; sourceTree = "<group>"; };
+		FDA86A131CA012BA00BA7D09 /* NSObject+MJCoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJCoding.m"; sourceTree = "<group>"; };
+		FDA86A141CA012BA00BA7D09 /* NSObject+MJKeyValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MJKeyValue.h"; sourceTree = "<group>"; };
+		FDA86A151CA012BA00BA7D09 /* NSObject+MJKeyValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJKeyValue.m"; sourceTree = "<group>"; };
+		FDA86A161CA012BA00BA7D09 /* NSObject+MJProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MJProperty.h"; sourceTree = "<group>"; };
+		FDA86A171CA012BA00BA7D09 /* NSObject+MJProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJProperty.m"; sourceTree = "<group>"; };
+		FDA86A181CA012BA00BA7D09 /* NSString+MJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MJExtension.h"; sourceTree = "<group>"; };
+		FDA86A191CA012BA00BA7D09 /* NSString+MJExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MJExtension.m"; sourceTree = "<group>"; };
+		FDA86A241CA012E100BA7D09 /* YMServerDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "YMServerDemo-Prefix.pch"; sourceTree = "<group>"; };
+		FDA86A251CA0138C00BA7D09 /* UIDevice-Hardware.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice-Hardware.h"; sourceTree = "<group>"; };
+		FDA86A261CA0138C00BA7D09 /* UIDevice-Hardware.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice-Hardware.m"; sourceTree = "<group>"; };
+		FDA86A281CA0139C00BA7D09 /* NSString+IPAddress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+IPAddress.h"; sourceTree = "<group>"; };
+		FDA86A291CA0139C00BA7D09 /* NSString+IPAddress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+IPAddress.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FDA869A21CA0115E00BA7D09 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDA869BB1CA0115E00BA7D09 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FDA8699C1CA0115E00BA7D09 = {
+			isa = PBXGroup;
+			children = (
+				FDA869A71CA0115E00BA7D09 /* YMServerDemo */,
+				FDA869C11CA0115E00BA7D09 /* YMServerDemoTests */,
+				FDA869A61CA0115E00BA7D09 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FDA869A61CA0115E00BA7D09 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FDA869A51CA0115E00BA7D09 /* YMServerDemo.app */,
+				FDA869BE1CA0115E00BA7D09 /* YMServerDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FDA869A71CA0115E00BA7D09 /* YMServerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				FDA869DD1CA011F000BA7D09 /* Lib */,
+				FDA869CD1CA011D400BA7D09 /* Model */,
+				FDA869AB1CA0115E00BA7D09 /* AppDelegate.h */,
+				FDA869AC1CA0115E00BA7D09 /* AppDelegate.m */,
+				FDA86A251CA0138C00BA7D09 /* UIDevice-Hardware.h */,
+				FDA86A261CA0138C00BA7D09 /* UIDevice-Hardware.m */,
+				FDA86A281CA0139C00BA7D09 /* NSString+IPAddress.h */,
+				FDA86A291CA0139C00BA7D09 /* NSString+IPAddress.m */,
+				FDA869AE1CA0115E00BA7D09 /* ViewController.h */,
+				FDA869AF1CA0115E00BA7D09 /* ViewController.m */,
+				FDA869B11CA0115E00BA7D09 /* Main.storyboard */,
+				FDA869B41CA0115E00BA7D09 /* Assets.xcassets */,
+				FDA869B61CA0115E00BA7D09 /* LaunchScreen.storyboard */,
+				FDA869B91CA0115E00BA7D09 /* Info.plist */,
+				FDA869A81CA0115E00BA7D09 /* Supporting Files */,
+			);
+			path = YMServerDemo;
+			sourceTree = "<group>";
+		};
+		FDA869A81CA0115E00BA7D09 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FDA86A241CA012E100BA7D09 /* YMServerDemo-Prefix.pch */,
+				FDA869A91CA0115E00BA7D09 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FDA869C11CA0115E00BA7D09 /* YMServerDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				FDA869C21CA0115E00BA7D09 /* YMServerDemoTests.m */,
+				FDA869C41CA0115E00BA7D09 /* Info.plist */,
+			);
+			path = YMServerDemoTests;
+			sourceTree = "<group>";
+		};
+		FDA869CD1CA011D400BA7D09 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FDA869CE1CA011DC00BA7D09 /* UserInfoModel.h */,
+				FDA869CF1CA011DC00BA7D09 /* UserInfoModel.m */,
+				FDA869D01CA011DC00BA7D09 /* RegisterSerivceModel.h */,
+				FDA869D11CA011DC00BA7D09 /* RegisterSerivceModel.m */,
+				FDA869D21CA011DC00BA7D09 /* SongInforModel.h */,
+				FDA869D31CA011DC00BA7D09 /* SongInforModel.m */,
+				FDA869D41CA011DC00BA7D09 /* HeadModel.h */,
+				FDA869D51CA011DC00BA7D09 /* HeadModel.m */,
+				FDA869D61CA011DC00BA7D09 /* DeviceModel.h */,
+				FDA869D71CA011DC00BA7D09 /* DeviceModel.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		FDA869DD1CA011F000BA7D09 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				FDA86A041CA012BA00BA7D09 /* MJExtension */,
+			);
+			name = Lib;
+			sourceTree = "<group>";
+		};
+		FDA86A041CA012BA00BA7D09 /* MJExtension */ = {
+			isa = PBXGroup;
+			children = (
+				FDA86A051CA012BA00BA7D09 /* MJExtension.h */,
+				FDA86A061CA012BA00BA7D09 /* MJExtensionConst.h */,
+				FDA86A071CA012BA00BA7D09 /* MJExtensionConst.m */,
+				FDA86A081CA012BA00BA7D09 /* MJFoundation.h */,
+				FDA86A091CA012BA00BA7D09 /* MJFoundation.m */,
+				FDA86A0A1CA012BA00BA7D09 /* MJProperty.h */,
+				FDA86A0B1CA012BA00BA7D09 /* MJProperty.m */,
+				FDA86A0C1CA012BA00BA7D09 /* MJPropertyKey.h */,
+				FDA86A0D1CA012BA00BA7D09 /* MJPropertyKey.m */,
+				FDA86A0E1CA012BA00BA7D09 /* MJPropertyType.h */,
+				FDA86A0F1CA012BA00BA7D09 /* MJPropertyType.m */,
+				FDA86A101CA012BA00BA7D09 /* NSObject+MJClass.h */,
+				FDA86A111CA012BA00BA7D09 /* NSObject+MJClass.m */,
+				FDA86A121CA012BA00BA7D09 /* NSObject+MJCoding.h */,
+				FDA86A131CA012BA00BA7D09 /* NSObject+MJCoding.m */,
+				FDA86A141CA012BA00BA7D09 /* NSObject+MJKeyValue.h */,
+				FDA86A151CA012BA00BA7D09 /* NSObject+MJKeyValue.m */,
+				FDA86A161CA012BA00BA7D09 /* NSObject+MJProperty.h */,
+				FDA86A171CA012BA00BA7D09 /* NSObject+MJProperty.m */,
+				FDA86A181CA012BA00BA7D09 /* NSString+MJExtension.h */,
+				FDA86A191CA012BA00BA7D09 /* NSString+MJExtension.m */,
+			);
+			path = MJExtension;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FDA869A41CA0115E00BA7D09 /* YMServerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDA869C71CA0115E00BA7D09 /* Build configuration list for PBXNativeTarget "YMServerDemo" */;
+			buildPhases = (
+				FDA869A11CA0115E00BA7D09 /* Sources */,
+				FDA869A21CA0115E00BA7D09 /* Frameworks */,
+				FDA869A31CA0115E00BA7D09 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YMServerDemo;
+			productName = YMServerDemo;
+			productReference = FDA869A51CA0115E00BA7D09 /* YMServerDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FDA869BD1CA0115E00BA7D09 /* YMServerDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDA869CA1CA0115E00BA7D09 /* Build configuration list for PBXNativeTarget "YMServerDemoTests" */;
+			buildPhases = (
+				FDA869BA1CA0115E00BA7D09 /* Sources */,
+				FDA869BB1CA0115E00BA7D09 /* Frameworks */,
+				FDA869BC1CA0115E00BA7D09 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FDA869C01CA0115E00BA7D09 /* PBXTargetDependency */,
+			);
+			name = YMServerDemoTests;
+			productName = YMServerDemoTests;
+			productReference = FDA869BE1CA0115E00BA7D09 /* YMServerDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FDA8699D1CA0115E00BA7D09 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = long;
+				TargetAttributes = {
+					FDA869A41CA0115E00BA7D09 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					FDA869BD1CA0115E00BA7D09 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = FDA869A41CA0115E00BA7D09;
+					};
+				};
+			};
+			buildConfigurationList = FDA869A01CA0115E00BA7D09 /* Build configuration list for PBXProject "YMServerDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FDA8699C1CA0115E00BA7D09;
+			productRefGroup = FDA869A61CA0115E00BA7D09 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FDA869A41CA0115E00BA7D09 /* YMServerDemo */,
+				FDA869BD1CA0115E00BA7D09 /* YMServerDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FDA869A31CA0115E00BA7D09 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDA869B81CA0115E00BA7D09 /* LaunchScreen.storyboard in Resources */,
+				FDA869B51CA0115E00BA7D09 /* Assets.xcassets in Resources */,
+				FDA869B31CA0115E00BA7D09 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDA869BC1CA0115E00BA7D09 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FDA869A11CA0115E00BA7D09 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDA86A211CA012BA00BA7D09 /* NSObject+MJKeyValue.m in Sources */,
+				FDA86A2A1CA0139C00BA7D09 /* NSString+IPAddress.m in Sources */,
+				FDA86A1E1CA012BA00BA7D09 /* MJPropertyType.m in Sources */,
+				FDA869DB1CA011DC00BA7D09 /* HeadModel.m in Sources */,
+				FDA86A1A1CA012BA00BA7D09 /* MJExtensionConst.m in Sources */,
+				FDA869DC1CA011DC00BA7D09 /* DeviceModel.m in Sources */,
+				FDA86A1B1CA012BA00BA7D09 /* MJFoundation.m in Sources */,
+				FDA86A1F1CA012BA00BA7D09 /* NSObject+MJClass.m in Sources */,
+				FDA869B01CA0115E00BA7D09 /* ViewController.m in Sources */,
+				FDA86A231CA012BA00BA7D09 /* NSString+MJExtension.m in Sources */,
+				FDA869AD1CA0115E00BA7D09 /* AppDelegate.m in Sources */,
+				FDA869D81CA011DC00BA7D09 /* UserInfoModel.m in Sources */,
+				FDA86A1D1CA012BA00BA7D09 /* MJPropertyKey.m in Sources */,
+				FDA869DA1CA011DC00BA7D09 /* SongInforModel.m in Sources */,
+				FDA86A271CA0138C00BA7D09 /* UIDevice-Hardware.m in Sources */,
+				FDA869D91CA011DC00BA7D09 /* RegisterSerivceModel.m in Sources */,
+				FDA86A221CA012BA00BA7D09 /* NSObject+MJProperty.m in Sources */,
+				FDA869AA1CA0115E00BA7D09 /* main.m in Sources */,
+				FDA86A1C1CA012BA00BA7D09 /* MJProperty.m in Sources */,
+				FDA86A201CA012BA00BA7D09 /* NSObject+MJCoding.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDA869BA1CA0115E00BA7D09 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDA869C31CA0115E00BA7D09 /* YMServerDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FDA869C01CA0115E00BA7D09 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FDA869A41CA0115E00BA7D09 /* YMServerDemo */;
+			targetProxy = FDA869BF1CA0115E00BA7D09 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FDA869B11CA0115E00BA7D09 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FDA869B21CA0115E00BA7D09 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FDA869B61CA0115E00BA7D09 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FDA869B71CA0115E00BA7D09 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FDA869C51CA0115E00BA7D09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FDA869C61CA0115E00BA7D09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FDA869C81CA0115E00BA7D09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "YMServerDemo/YMServerDemo-Prefix.pch";
+				INFOPLIST_FILE = YMServerDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hzins.YMServerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FDA869C91CA0115E00BA7D09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "YMServerDemo/YMServerDemo-Prefix.pch";
+				INFOPLIST_FILE = YMServerDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hzins.YMServerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FDA869CB1CA0115E00BA7D09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = YMServerDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hzins.YMServerDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YMServerDemo.app/YMServerDemo";
+			};
+			name = Debug;
+		};
+		FDA869CC1CA0115E00BA7D09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = YMServerDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hzins.YMServerDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YMServerDemo.app/YMServerDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FDA869A01CA0115E00BA7D09 /* Build configuration list for PBXProject "YMServerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDA869C51CA0115E00BA7D09 /* Debug */,
+				FDA869C61CA0115E00BA7D09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDA869C71CA0115E00BA7D09 /* Build configuration list for PBXNativeTarget "YMServerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDA869C81CA0115E00BA7D09 /* Debug */,
+				FDA869C91CA0115E00BA7D09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FDA869CA1CA0115E00BA7D09 /* Build configuration list for PBXNativeTarget "YMServerDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDA869CB1CA0115E00BA7D09 /* Debug */,
+				FDA869CC1CA0115E00BA7D09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FDA8699D1CA0115E00BA7D09 /* Project object */;
+}
