@@ -31,6 +31,8 @@
 		FDA86A231CA012BA00BA7D09 /* NSString+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = FDA86A191CA012BA00BA7D09 /* NSString+MJExtension.m */; };
 		FDA86A271CA0138C00BA7D09 /* UIDevice-Hardware.m in Sources */ = {isa = PBXBuildFile; fileRef = FDA86A261CA0138C00BA7D09 /* UIDevice-Hardware.m */; };
 		FDA86A2A1CA0139C00BA7D09 /* NSString+IPAddress.m in Sources */ = {isa = PBXBuildFile; fileRef = FDA86A291CA0139C00BA7D09 /* NSString+IPAddress.m */; };
+		FDA86A2E1CA014B300BA7D09 /* YMServer.m in Sources */ = {isa = PBXBuildFile; fileRef = FDA86A2D1CA014B300BA7D09 /* YMServer.m */; };
+		FDA86A9A1CA01E0E00BA7D09 /* YMClient.m in Sources */ = {isa = PBXBuildFile; fileRef = FDA86A991CA01E0E00BA7D09 /* YMClient.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -93,6 +95,10 @@
 		FDA86A261CA0138C00BA7D09 /* UIDevice-Hardware.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice-Hardware.m"; sourceTree = "<group>"; };
 		FDA86A281CA0139C00BA7D09 /* NSString+IPAddress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+IPAddress.h"; sourceTree = "<group>"; };
 		FDA86A291CA0139C00BA7D09 /* NSString+IPAddress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+IPAddress.m"; sourceTree = "<group>"; };
+		FDA86A2C1CA014B300BA7D09 /* YMServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMServer.h; sourceTree = "<group>"; };
+		FDA86A2D1CA014B300BA7D09 /* YMServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YMServer.m; sourceTree = "<group>"; };
+		FDA86A981CA01E0E00BA7D09 /* YMClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMClient.h; sourceTree = "<group>"; };
+		FDA86A991CA01E0E00BA7D09 /* YMClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YMClient.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,6 +140,7 @@
 		FDA869A71CA0115E00BA7D09 /* YMServerDemo */ = {
 			isa = PBXGroup;
 			children = (
+				FDA86A2B1CA0148400BA7D09 /* YMServer */,
 				FDA869DD1CA011F000BA7D09 /* Lib */,
 				FDA869CD1CA011D400BA7D09 /* Model */,
 				FDA869AB1CA0115E00BA7D09 /* AppDelegate.h */,
@@ -222,6 +229,17 @@
 				FDA86A191CA012BA00BA7D09 /* NSString+MJExtension.m */,
 			);
 			path = MJExtension;
+			sourceTree = "<group>";
+		};
+		FDA86A2B1CA0148400BA7D09 /* YMServer */ = {
+			isa = PBXGroup;
+			children = (
+				FDA86A2C1CA014B300BA7D09 /* YMServer.h */,
+				FDA86A2D1CA014B300BA7D09 /* YMServer.m */,
+				FDA86A981CA01E0E00BA7D09 /* YMClient.h */,
+				FDA86A991CA01E0E00BA7D09 /* YMClient.m */,
+			);
+			name = YMServer;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -336,8 +354,10 @@
 				FDA86A231CA012BA00BA7D09 /* NSString+MJExtension.m in Sources */,
 				FDA869AD1CA0115E00BA7D09 /* AppDelegate.m in Sources */,
 				FDA869D81CA011DC00BA7D09 /* UserInfoModel.m in Sources */,
+				FDA86A9A1CA01E0E00BA7D09 /* YMClient.m in Sources */,
 				FDA86A1D1CA012BA00BA7D09 /* MJPropertyKey.m in Sources */,
 				FDA869DA1CA011DC00BA7D09 /* SongInforModel.m in Sources */,
+				FDA86A2E1CA014B300BA7D09 /* YMServer.m in Sources */,
 				FDA86A271CA0138C00BA7D09 /* UIDevice-Hardware.m in Sources */,
 				FDA869D91CA011DC00BA7D09 /* RegisterSerivceModel.m in Sources */,
 				FDA86A221CA012BA00BA7D09 /* NSObject+MJProperty.m in Sources */,
